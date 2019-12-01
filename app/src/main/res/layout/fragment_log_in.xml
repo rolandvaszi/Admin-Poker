@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/log_in_button"
+        android:layout_width="176dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/log_in_button_text" />
+
+    <TextView
+        android:id="@+id/log_in_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/log_in_button_text"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="180dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_a_group"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="280dp"
+        android:inputType="textPersonName"/>
+
+</FrameLayout>

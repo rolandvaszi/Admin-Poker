@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Admin Poker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in_button_text">Log in</string>
+    <string name="enter_a_group">Enter a Group</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="add_question">Add Question</string>
+    <string name="enter_new_question">Enter New Question</string>
+</resources>
